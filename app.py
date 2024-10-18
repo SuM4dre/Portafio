@@ -25,6 +25,9 @@ def proyectos():
 def contacto():
     return render_template('contacto.html')
 
+@app.route('/Spotify')
+def Spotify():
+    return render_template('Spotify.html')
 
 
 if __name__ == '__main__':
